@@ -1,12 +1,12 @@
-package com.geek.spring.boot.blog;
+package com.geek.spring.boot.jpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InitializrStartApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InitializrStartApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }
